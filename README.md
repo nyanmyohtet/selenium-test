@@ -6,7 +6,7 @@
 
   > Warning: Download the driver version that match with your browser version
 
-- Place `chromedriver.exe` into 'C:WebDrivers\bin\\`directory.
+- Place `chromedriver.exe` into `C:WebDrivers\bin\` directory.
 
 ![chromedriver.exe](./images/chrome_driver.exe.png)
 
