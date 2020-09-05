@@ -8,13 +8,6 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
 
     // Enter text "selenium" and perform keyboard action "Enter"
     await driver.findElement(By.name("q")).sendKeys("selenium", Key.ENTER);
-
-    let firstResult = await driver.wait(
-      until.elementLocated(By.css("h3>div")),
-      10000
-    );
-
-    console.log(await firstResult.getAttribute("textContent"));
   } finally {
     driver.quit();
   }
